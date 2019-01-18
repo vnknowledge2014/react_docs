@@ -12,7 +12,7 @@ Không giống như các `DOM element` trong trình duyệt, Các `element` tron
 
 *
     *Lưu ý:*
-    Người ta có thể nhầm lẫn các element với một khái niệm được biết đến rộng hơn của "components". Chúng ta sẽ được biết rõ hơn về các component trong [bài học sau](http://google.com). Các element là các component được "tạo ra", và phần bên dưới đây sẽ giúp bạn làm rõ các vấn đề bạn còn đang thắc mắc.
+    Người ta có thể nhầm lẫn các element với một khái niệm được biết đến rộng hơn của "components". Chúng ta sẽ được biết rõ hơn về các component trong [bài học sau](https://github.com/vnknowledge2014/react_docs/blob/master/Components%20and%20Props.md). Các element là các component được "tạo ra", và phần bên dưới đây sẽ giúp bạn làm rõ các vấn đề bạn còn đang thắc mắc.
 
 ## Việc hiển thị một phần tử bên trong DOM
 Có một thẻ `<div>` nằm đâu đó trong tập tin HTML của bạn:
@@ -31,8 +31,7 @@ Việc hiển thị một React element bên trong root DOM sẽ được xử l
 const element = <h1>Hello, world</h1>;
 ReactDOM.render(element, document.getElementById('root'));
 ```
-
-[Chạy thử trên CodePen](https://reactjs.org/redirect-to-codepen/rendering-elements/render-an-element)
+**[Chạy thử trên CodePen](https://reactjs.org/redirect-to-codepen/rendering-elements/render-an-element)**
 
 Kết quả ta có là một thông điệp "Hello, world" được hiển thị trên màn hình trình duyệt.
 
@@ -56,14 +55,13 @@ function tick() {
 
 setInterval(tick, 1000);
 ```
-
-[Chạy thử trên CodePen](https://reactjs.org/redirect-to-codepen/rendering-elements/update-rendered-element)
+**[Chạy thử trên CodePen](https://reactjs.org/redirect-to-codepen/rendering-elements/update-rendered-element)**
 
 Ở ví dụ trên hàm `ReactDOM.render()` sẽ được gọi lại mỗi giây thông qua hàm callback `setInterval()`.
 
 *
     **Lưu ý:**
-    Trong thực tế, hầu hết các ứng dụng react chỉ gọi `ReactDOM.render()` một lần duy nhất. Trong phần tiếp theo chúng ta sẽ học về việc làm thế nào để đóng gói mã nguồn bên trong các [stateful component](http://google.com).<br/><br/>
+    Trong thực tế, hầu hết các ứng dụng react chỉ gọi `ReactDOM.render()` một lần duy nhất. Trong phần tiếp theo chúng ta sẽ học về việc làm thế nào để đóng gói mã nguồn bên trong các [stateful component](https://github.com/vnknowledge2014/react_docs/blob/master/State%20and%20Lifecycle.md).<br/><br/>
     Bạn không nên bỏ qua các phần tiếp sau đây bởi nó sẽ giúp bạn hiểu và làm rõ các vấn đề liên quan trong những bài học kế tiếp.
 
 ## React chỉ cập nhật khi thực sự cần thiết
