@@ -10,7 +10,7 @@ Cú pháp trên không phải là một `string` hay `html`.
 
 Thứ chúng ta thấy ở đoạn mã trên chính là JSX, nó là một phiên bản mở rộng của Javascript. JSX được sử dụng để dựng giao diện trong React, nó làm chúng ta nhớ về một dạng ngôn ngữ mẫu - template language, nhưng có điều là JSX sở hữu toàn bộ tính năng của Javascript.
 
-JSX giúp chúng ta xây dựng các phần tử trong React. Chúng ta sẽ tìm hiểu việc hiển thị các phần tử thành dạng DOM trong [phần kế tiếp](http://google.com). Tiếp theo đây chúng ta sẽ tìm hiểu kiến thức cơ bản về JSX.
+JSX giúp chúng ta xây dựng các phần tử trong React. Chúng ta sẽ tìm hiểu việc hiển thị các phần tử thành dạng DOM trong [phần kế tiếp](https://github.com/vnknowledge2014/react_docs/blob/master/Rendering%20Elements.md). Tiếp theo đây chúng ta sẽ tìm hiểu kiến thức cơ bản về JSX.
 
 ## Tại sao lại sử dụng JSX ?
 React đã nắm bắt được việc hiển thị logic kết hợp cùng với giao diện như: làm cách nào các sự kiện được xử lý, cách các trạng thái thay đổi theo thời gian và cách dữ liệu được chuẩn bị cho việc hiển thị.
