@@ -5,7 +5,7 @@ Các component giúp ta chia giao diện ra thành các phần tử đủ nhỏ,
 Về mặt khái niệm, các component giống như các hàm trong Javascript. Chúng có "props" để nhận vào các giá trị tuỳ chọn và trả ra các React element đã được cấu hình để hiển thị lên màn hình.
 
 ## Hàm và các lớp component
-Cách đơn giản nhất để định nghĩa một compoent thông qua một hàm trong Javascript:
+Cách đơn giản nhất để định nghĩa một component thông qua một hàm trong Javascript:
 
 ```js
 function Welcome(props) {
